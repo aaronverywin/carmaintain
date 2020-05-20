@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navhome"
+            android:icon="@drawable/ic_home_foreground"
+            android:title="首頁" />
+        <item
+            android:id="@+id/navgas"
+            android:icon="@drawable/ic_gas_foreground"
+            android:title="油耗管理"/>
+        <item
+            android:id="@+id/navmain"
+            android:icon="@drawable/ic_maintenance_foreground"
+            android:title="保養管理"/>
+        <item
+            android:id="@+id/navreport"
+            android:icon="@drawable/ic_report_foreground"
+            android:title="報告"/>>
+    </group>
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navposit"
+            android:icon="@drawable/ic_posit_foreground"
+            android:title="定位" />
+        <item
+            android:id="@+id/nav"
+            android:icon="@drawable/ic_car_foreground"
+            android:title="車庫管理"/>
+        <item
+            android:id="@+id/navnoti"
+            android:icon="@drawable/ic_noti_foreground"
+            android:title="保養提醒"/>
+        <item
+            android:id="@+id/navitem"
+            android:icon="@drawable/ic_item_foreground"
+            android:title="保養項目"/>>
+    </group>
+    <group
+    android:id="@+id/group3"
+    android:checkableBehavior="single">
+    <item
+        android:id="@+id/navset"
+        android:icon="@drawable/ic_set_foreground"
+        android:title="設定" />
+    </group>
+</menu>

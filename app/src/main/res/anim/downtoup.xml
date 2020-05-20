@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--上下两个方向，那么起始点距离原点，x轴不变，可以不用管，只看y轴-->
+    <!--从下往上，y轴从100%p到0，反之0到100%p，左右两个方向同理-->
+    <translate
+        android:fromYDelta="100%p"
+        android:toYDelta="0"
+        android:duration="300"
+        />
+
+</set>
+

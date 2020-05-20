@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">汽車小幫手</string>
+    <string name="fuel_management">油耗管理</string>
+    <string name="maintenance_management">保養管理</string>
+    <string name="report">報告</string>
+    <string name="more">更多</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="posit">定位</string>
+    <string name="set">設定</string>
+    <string name="notice">保養提醒</string>
+    <string name="item">保養項目</string>
+    <string name="garage">車庫管理</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="normal_map" translatable="false">Normal Map</string>
+    <string name="hybrid_map" translatable="false">Hybrid Map</string>
+    <string name="satellite_map" translatable="false">Satellite Map</string>
+    <string name="terrain_map" translatable="false">Terrain Map</string>
+    <string name="lat_long_snippet">Lat: %1$.5f, Long: %2$.5f</string>
+    <string name="dropped_pin">Dropped Pin</string>
+    <string name="poi">poi</string>
+    <string name="zoom">15f</string>
+
+    <string-array name="oillable">
+        <item>中油</item>
+        <item>台塑</item>
+    </string-array>
+
+    <string-array name="oil">
+        <item>98無鉛</item>
+        <item>95無鉛</item>
+        <item>92無鉛</item>
+        <item>超級柴油</item>
+    </string-array>
+</resources>

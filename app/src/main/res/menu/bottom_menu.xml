@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navhome"
+            android:icon="@drawable/ic_home_foreground"
+            android:title="首頁" />
+        <item
+            android:id="@+id/navgas"
+            android:icon="@drawable/ic_gas_foreground"
+            android:title="油耗管理"/>
+        <item
+            android:id="@+id/navmain"
+            android:icon="@drawable/ic_maintenance_foreground"
+            android:title="保養管理"/>
+        <item
+            android:id="@+id/navreport"
+            android:icon="@drawable/ic_report_foreground"
+            android:title="報告"/>
+        <item
+            android:id="@+id/navmore"
+            android:icon="@drawable/ic_more_foreground"
+            android:title="更多"/>
+    </group>
+
+</menu>

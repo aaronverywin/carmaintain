@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:shrinkColumns="0">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="@string/garage" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar2"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="名稱" />
+
+    <EditText
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/oillabels"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="廠牌" />
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="車牌號碼" />
+
+    <EditText
+        android:id="@+id/Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/number"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="date"
+        android:hint="出廠日期" />
+    <Spinner
+        android:id="@+id/carimage"
+        android:layout_width="60pt"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="12dp"
+        />
+
+    <Spinner
+        android:id="@+id/oillabels"
+        android:layout_width="60pt"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/carimage"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="12dp"
+        />
+
+    <Spinner
+        android:id="@+id/oil"
+        android:layout_width="60pt"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/carimage"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="12dp" />
+
+
+</RelativeLayout>
